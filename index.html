@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+  <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta name="theme-color" content="#111111" />
+  <title>EasyMoney | Leha Academy</title>
+  <link
+    rel="preload"
+    href="fonts/Jost-Regular.woff2"
+    as="font"
+    type="font/woff2"
+    crossorigin
+  />
+  <link
+    rel="preload"
+    href="fonts/Jost-SemiBold.woff2"
+    as="font"
+    type="font/woff2"
+    crossorigin
+  />
+  <link
+    rel="preload"
+    href="fonts/Jost-Bold.woff2"
+    as="font"
+    type="font/woff2"
+    crossorigin
+  />
+  <link rel="stylesheet" href="css/vendor.css" />
+  <link rel="stylesheet" href="css/main.css" />
+  <script defer src="js/main.js"></script>
+</head>
+
+  <body class="page__body">
+    <div class="site-container">
+      <header class="header">
+  <div class="container header__container">
+    <a href="#" class="logo header__logo">
+      Easy.Money
+      <p>by Leha</p>
+    </a>
+    <nav class="nav" title="Главное меню" data-menu>
+      <ul class="list-reset nav__list">
+        <li class="nav__item">
+          <a href="#about" class="nav__link" data-menu-item data-scroll
+            >Об Академии</a
+          >
+        </li>
+        <li class="nav__item">
+          <a href="#trainers" class="nav__link" data-menu-item data-scroll
+            >О Лёхе</a
+          >
+        </li>
+        <li class="nav__item">
+          <a href="#tariffs" class="nav__link" data-menu-item data-scroll
+            >Стоимость</a
+          >
+        </li>
+      </ul>
+
+      <button
+        class="btn-reset burger-close"
+        aria-label="Закрыть меню"
+        data-menu-close
+      ></button>
+    </nav>
+
+    <a href="tel:+79877654321" class="phone header__phone"
+      >+7 987 765-43-21</a
+    >
+
+    <button
+      class="btn-reset burger"
+      aria-label="Открыть меню"
+      aria-expanded="false"
+      data-burger
+    >
+      <span class="burger__line"></span>
+      <span class="burger__line"></span>
+      <span class="burger__line"></span>
+    </button>
+  </div>
+</header>
+
+      <main class="main">
+        <section class="hero">
+  <div class="container hero__container">
+    <div class="hero__content">
+      <h1 class="hero__title">
+        Easy Money
+        <span class="hero__title-text">
+          Комплексная программа по трансформации жизни | Более 11 000 участников
+        </span>
+      </h1>
+      <a href="#tariffs" class="hero__link btn" data-scroll
+        >Записаться на курс</a
+      >
+      <span class="flare"></span>
+    </div>
+
+    <div class="hero__img">
+      <picture>
+        <source srcset="img/hero-img.avif" type="image/avif" />
+        <source srcset="img/hero-img.webp" type="image/webp" />
+        <img
+          loading="lazy"
+          src="img/hero-img.png"
+          class="image"
+          width="780"
+          height="915"
+          alt="student"
+        />
+      </picture>
+    </div>
+  </div>
+</section>
+
+        <section class="about section-offset" id="about">
+  <div class="container">
+    <div class="visually-hidden">Об Академии Easy Money</div>
+    <p class="about__descr">
+      <span class="about__descr-accent">Easy Money</span> — Комплексная
+      программа Лёхи по проработке ключевых сфер жизни через обратную связь и командное
+      взаимодействие
+    </p>
+    <ul class="list-reset about__list">
+      <li class="about__item">
+        <div class="about__digit">19</div>
+        <p class="about__text">
+          Лет Лёха проходил обучение среди китайских мудрецов, ученых с мировыми именами, Нобелевских лауреатов
+        </p>
+      </li>
+      <li class="about__item">
+        <div class="about__digit">20</div>
+        <p class="about__text">Раз Лёха опаздал на 2707</p>
+      </li>
+      <li class="about__item">
+        <div class="about__digit">100</div>
+        <p class="about__text">
+          Академий Easy Money открыто по всему миру
+        </p>
+      </li>
+      <li class="about__item">
+        <div class="about__digit">10 000</div>
+        <p class="about__text">Участников достигли своих целей благодаря Лёхе</p>
+      </li>
+    </ul>
+  </div>
+</section>
+
+        <section class="benefits section-offset">
+  <div class="container">
+    <h2 class="benefits__title section-title">Что вы получите после курса</h2>
+    <ul class="list-reset benefits__list">
+      <li class="benefits__item">
+        <h3 class="benefits__subtitle">Удовлетворенность</h3>
+        <p class="benefits__descr">
+          Начнете получать удовольствие от жизни. Осознаете свои
+          суперспособности, уверенность в себе.
+        </p>
+      </li>
+
+      <li class="benefits__item">
+        <h3 class="benefits__subtitle">
+          Выростете в доходе более чем в 2 раза
+        </h3>
+        <p class="benefits__descr">
+          Уйдете с ненавистной работы и станете зарабатывать в 60 раз больше!
+          Восстановите отношения в семье, вернете любимого человека.
+        </p>
+      </li>
+
+      <li class="benefits__item">
+        <h3 class="benefits__subtitle">
+          Станете красивее внутренне и внешне
+
+          <span class="tooltip">
+            <button class="btn-reset tooltip__btn" aria-describedby="id1">
+              <svg class="tooltip__icon">
+                <use xlink:href="img/sprite.svg#tooltip"></use>
+              </svg>
+            </button>
+            <span class="tooltip__txt" role="tooltip" id="id1">
+              <span class="visually-hidden">Тултип: </span>
+              При наличии свободных мест
+            </span>
+          </span>
+        </h3>
+        <p class="benefits__descr">
+          Скинете лишний вес за неделю, порявится жажда жизни и огромные планы!
+        </p>
+      </li>
+    </ul>
+  </div>
+</section>
+
+        <section class="trainers section-offset" id="trainers">
+  <div class="container">
+    <h2 class="section-title">Отзывы участников</h2>
+  </div>
+
+  <div class="trainers__wrapper">
+    <div class="swiper trainers__content">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="trainers__item">
+            <picture>
+              <source srcset="img/trainer-1.avif" type="image/avif" />
+              <source srcset="img/trainer-1.webp" type="image/webp" />
+              <img
+                loading="lazy"
+                src="img/trainer-1.png"
+                class="trainers__image"
+                width="260"
+                height="500"
+                alt="Ирина Лайм"
+              />
+            </picture>
+            <div class="trainers__name">Илон Маск</div>
+            <div class="trainers__post">«Это Лёха помог реализовать идею Teslа и космический шатл Space-X. Лёха гений!»</div>
+
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="trainers__item">
+            <picture>
+              <source srcset="img/trainer-2.avif" type="image/avif" />
+              <source srcset="img/trainer-2.webp" type="image/webp" />
+              <img
+                loading="lazy"
+                src="img/trainer-2.png"
+                class="trainers__image"
+                width="260px"
+                height="500px"
+                alt="Марина Орлова"
+              />
+            </picture>
+            <div class="trainers__name">Леброн Джеймс</div>
+            <div class="trainers__post">«Играть меня в баскетбол научил Лёха. Вместе учились в колледже, он монстр»</div>
+
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="trainers__item">
+            <picture>
+              <source srcset="img/trainer-3.avif" type="image/avif" />
+              <source srcset="img/trainer-3.webp" type="image/webp" />
+              <img
+                loading="lazy"
+                src="img/trainer-3.jpg"
+                class="trainers__image"
+                width="260px"
+                height="500px"
+                alt="Максим Петров"
+              />
+            </picture>
+            <div class="trainers__name">Джейсон Стейтем</div>
+            <div class="trainers__post">«Мои цитаты не мои… Я их позаимствовал у Лёхи!»</div>
+
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="trainers__item">
+            <picture>
+              <source srcset="img/trainer-4.avif" type="image/avif" />
+              <source srcset="img/trainer-4.webp" type="image/webp" />
+              <img
+                loading="lazy"
+                src="img/trainer-4.jpg"
+                class="trainers__image"
+                width="260px"
+                height="500px"
+                alt="Константин Назаров"
+              />
+            </picture>
+            <div class="trainers__name">Криштиану Роналду</div>
+            <div class="trainers__post">«Мои главные победы начались после знаомствас Лёхой. Это его заслуга!»</div>
+
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="trainers__item">
+            <picture>
+              <source srcset="img/trainer-5.avif" type="image/avif" />
+              <source srcset="img/trainer-5.webp" type="image/webp" />
+              <img
+                loading="lazy"
+                src="img/trainer-5.png"
+                class="trainers__image"
+                width="260"
+                height="500"
+                alt="Лиза Весенняя"
+              />
+            </picture>
+            <div class="trainers__name">Роберт Дауни — младший</div>
+            <div class="trainers__post">«Пошел на программу Лёхи и я вам скажу… Это было круто! Появились такая легкость!»</div>
+            <
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="trainers__nav">
+      <div class="trainers__scroll swiper-scrollbar"></div>
+      <div class="trainers__btns">
+        <button
+          class="btn-reset trainers__slider-btn trainers__slider-btn--prev"
+          aria-label="Перейти к предыдущему слайду"
+        ></button>
+        <button
+          class="btn-reset trainers__slider-btn trainers__slider-btn--next"
+          aria-label="Пeрейти к следующему слайду"
+        ></button>
+      </div>
+    </div>
+  </div>
+</section>
+
+        <section class="tariffs section-offset" id="tariffs">
+  <div class="container">
+    <h2 class="section-title">Выберите нужный пакет</h2>
+    <ul class="list-reset tariffs__list">
+      <li class="tariffs__item">
+        <h3 class="tariffs__subtitle">Premium</h3>
+        <div class="tariffs__price">190.000 ₽</div>
+        <ul class="list-reset tariffs__descr">
+          <li>Живое участие в тренингe</li>
+          <li>Кофебрейк в Уралочке</li>
+          <li>Автограф и фото Лёхи</li>
+        </ul>
+        <button class="btn-reset btn-simple tariffs__btn">
+          Оставить заявку
+        </button>
+      </li>
+
+      <li class="tariffs__item tariffs__item--current">
+        <h3 class="tariffs__subtitle">Vip</h3>
+        <div class="tariffs__price">300.000 ₽</div>
+        <ul class="list-reset tariffs__descr">
+          <li>Живое участие в тренингe</li>
+          <li>Детальный разбор c Лёхой</li>
+          <li>Ужин в Уралочке</li>
+          <li>Автограф и фото Лёхи</li>
+        </ul>
+
+        <button class="btn-reset btn tariffs__btn">Оставить заявку</button>
+      </li>
+
+      <li class="tariffs__item">
+        <h3 class="tariffs__subtitle">Standart</h3>
+        <div class="tariffs__price">100.000 ₽</div>
+        <ul class="list-reset tariffs__descr">
+          <li>Живое участие в тренингe</li>
+          <li>Автограф и фото Лёхи</li>
+        </ul>
+        <button class="btn-reset btn-simple tariffs__btn">
+          Оставить заявку
+        </button>
+      </li>
+    </ul>
+  </div>
+</section>
+
+        <section class="order">
+  <div class="container order__container">
+    <div class="order__left">
+      <h2 class="order__title">Запишитесь на курс со скидкой 10%</h2>
+      <p class="order__descr">Акция действительна до 10 мая 2022 года</p>
+    </div>
+    <div class="order__right">
+      <form action="#" class="form order__form">
+        <label class="form__label">
+          <input
+            type="text"
+            name="Имя"
+            class="input-reset form__input input-name"
+            placeholder="Имя"
+          />
+        </label>
+        <label class="form__label">
+          <input
+            type="tel"
+            name="Телефон"
+            class="input-reset form__input input-tel"
+            placeholder="Телефон"
+          />
+        </label>
+        <label class="form__label">
+          <input
+            type="email"
+            name="E-mail"
+            class="input-reset form__input input-email"
+            placeholder="E-mail"
+          />
+        </label>
+        <button class="btn-reset btn--dark form__btn">Отправить</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+      </main>
+
+      <footer class="footer">
+  <div class="container footer__container">
+    <div class="footer__left">
+      <a href="#" class="logo footer__logo">
+        Easy.Money
+        <p>by Leha</p>
+      </a>
+      <div class="footer__copy">© EASY.MONEY</div>
+    </div>
+    <a href="tel:+79877654321" class="phone">+7 987 765-43-21</a>
+  </div>
+</footer>
+
+      <div class="graph-modal">
+  <div class="graph-modal__container" role="dialog" aria-modal="true" data-graph-target="trainer-1">
+    <button class="btn-reset graph-modal__close" aria-label="Закрыть модальное окно"></button>
+    <div class="graph-modal__content"></div>
+  </div>
+</div>
+
+    </div>
+  </body>
+</html>
